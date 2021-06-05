@@ -1,0 +1,14 @@
+logging:
+  level:
+    org:
+      #springframework.data: DEBUG
+      #springframework.rest: DEBUG
+
+spring:
+  data:
+    mongodb:
+#      username: root
+#      password: root
+      database: ecommerce
+      port: 27017
+      host: localhost
