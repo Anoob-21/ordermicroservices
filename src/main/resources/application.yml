@@ -9,6 +9,12 @@ spring:
     mongodb:
 #      username: root
 #      password: root
-      database: ecommerce
-      port: 27017
-      host: localhost
+      #username: mongouser
+      #password: mongouser
+      #database: ecommerce
+      #port: 27017
+     # host: 192.168.1.5
+      #host: cluster0.tfzit.mongodb.net
+      uri: mongodb+srv://mongouser:mongouser@cluster0.tfzit.mongodb.net/ecommerce?retryWrites=true&w=majority
+
+
